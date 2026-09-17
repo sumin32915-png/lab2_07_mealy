@@ -11,4 +11,8 @@ FATAL: C:\Users\sumin\lab2_07_mealy\sim\tb_mealy_toggle.sv:12: check failed
        Time: 7000  Scope: tb_mealy_toggle.check
 
 ERROR: 종료 코드 1: C:\Users\sumin\lab2_07_mealy\build\sim\run-c48be12f503643089fe3bdbb05bb94a3\simulation.log
-[3]
+[3] 복구 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab2_07_mealy\build\sim\run-20551e7c3631450192e6fbc57b506166\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_PASS mealy_toggle checks=         11
+C:\Users\sumin\lab2_07_mealy\sim\tb_mealy_toggle.sv:19: $finish called at 67000 (1ps)

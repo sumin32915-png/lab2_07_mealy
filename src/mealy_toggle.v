@@ -9,5 +9,5 @@ module mealy_toggle (
         else if (enable && bit_in) state <= ~state;
     end
     // Reset changes state at the rising edge; value is combinational.
-    assign value = !bit_in ? 2'b00 : (state ? 2'b10 : 2'b01);
+    assign value = !bit_in ? 2'b00 : (state ? 2'b01 : 2'b10);
 endmodule
