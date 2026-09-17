@@ -1,0 +1,5 @@
+[1] PASS 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab2_07_mealy\build\sim\run-9a1957b455fd49d4a0352e3782bf0a99\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_PASS mealy_toggle checks=         11
+C:\Users\sumin\lab2_07_mealy\sim\tb_mealy_toggle.sv:19: $finish called at 67000 (1ps)
